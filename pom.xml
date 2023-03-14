@@ -12,6 +12,13 @@
     </parent>
 
     <packaging>pom</packaging>
+    <modules>
+        <module>common-server</module>
+        <module>gateway-server</module>
+        <module>register-server</module>
+        <module>admin-server</module>
+        <module>blog-server</module>
+    </modules>
 
     <groupId>com.blog.cloud</groupId>
     <artifactId>blog-cloud-parent</artifactId>
